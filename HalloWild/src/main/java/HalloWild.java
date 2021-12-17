@@ -4,5 +4,8 @@ public class HalloWild {
         Wild w = new Wild();
         w.wild();
         Wald forest = Wald.A;
+        if (forest == Wald.A) {
+            System.out.println("Hallo Wald A");
+        }
     }
 }
